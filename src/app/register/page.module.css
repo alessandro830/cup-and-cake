@@ -1,0 +1,105 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FBDFE4;
+}
+
+.textBox {
+    max-width: 648px;
+    color: #653321;
+}
+
+.pinkText {
+    color: #F69EAC;
+}
+
+.logo {
+    font-family: var(--font-sevillana);
+    font-size: 240px;
+    overflow-wrap: break-word;
+    line-height: 180px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: var(--font-bahiana);
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #653321;
+}
+
+.link {
+    background-color: #F69EAC;
+    width: 240px;
+    padding: 4px 0;
+    border: 1px solid #B09DA0;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.formBox,
+.input {
+    box-shadow: 0 4px 4px #653321b2;
+}
+
+.formBox {
+    background-color: #FFF4F6;
+    width: 450px;
+    padding: 48px;
+    border: 1px solid #B09DA0;
+    border-radius: 35px;
+}
+
+.formTitle {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: #694B41;
+}
+
+.input,
+.button {
+    height: 50px;
+    width: 358px;
+    border-radius: 10px;
+}
+
+.input {
+    background-color: #FBDFE4;
+    color: #653321;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #653321;
+}
+
+.button {
+    background-color: #F69EAC;
+    color: #653321;
+    border: 1px solid #B09DA0;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.button:hover {
+    background-color: #653321;
+    color: #F69EAC;
+}

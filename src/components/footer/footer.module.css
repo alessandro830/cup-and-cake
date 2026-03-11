@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: #090909;
+    overflow-y: hidden
+}
+
+.logo {
+    font-family: var(--font-sevillana);
+    font-size: 48px;
+    color: #F69EAC;
+}
