@@ -1,4 +1,4 @@
-#Cup&Cake
+# Cup&Cake
 
 ## Descrição
 O projeto é uma vitrine de uma loja de doces, onde é possível realizar um CRUD no produto e depoimentos dos clientes, além de uma página de cadastro e login.
