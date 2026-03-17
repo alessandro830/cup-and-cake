@@ -1,9 +1,7 @@
+import { redirect, RedirectType } from "next/navigation";
+
 export default function Home() {
   return (
-    <div>
-      <main>
-        Home do site
-      </main>
-    </div>
+    redirect('/register', RedirectType.replace)
   );
 }
