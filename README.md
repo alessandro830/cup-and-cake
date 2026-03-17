@@ -7,7 +7,6 @@ O projeto é uma vitrine de uma loja de doces, onde é possível realizar um CRU
 - NextJs
 - CSS Modules
 - TypeScript
-``
 
 ## Instrução de Instalação
 
@@ -23,7 +22,7 @@ cd cup-and-cake
 npm install
 ```
 
-###Como executar o projeto
+### Como executar o projeto
 
 ```bash
 npm run dev
