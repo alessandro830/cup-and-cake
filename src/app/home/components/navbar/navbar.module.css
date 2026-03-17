@@ -1,0 +1,45 @@
+.header {
+    color: #653321;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 170px;
+    border: 1px solid #653321;
+}
+
+.logo {
+    font-size: 50px;
+    font-family: var(--font-sevillana);
+    font-weight: 400;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.link {
+    display: inline-block;
+    font-family: var(--font-bahiana);
+    font-size: 37px;
+    font-weight: 400;
+    margin-right: 55px;
+    transition: .2s;
+}
+
+.logoutButton {
+    background-color: #F69EAC;
+    padding: 12px;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.link:hover,
+.logoutButton:hover {
+    opacity: 75%;
+}

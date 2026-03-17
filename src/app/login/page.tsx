@@ -1,4 +1,5 @@
 import styles from '@/app/styles/formPage.module.css'
+import Link from 'next/link'
 
 export default function login() {
     return (
@@ -8,7 +9,7 @@ export default function login() {
                 <p className={ styles.description }>O <span className={ styles.pinkText }>CUPCAKE</span> DE MELHOR QUALIDADE ATÉ VOCÊ</p>
             </div>
             <div className={ styles.container }>
-                <a href='/register' className={ styles.link }>Sign Up</a>
+                <Link href='/register' className={ styles.link }>Sign Up</Link>
                 <div className={ styles.formBox }>
                     <h1 className={ styles.formTitle }>LOGIN ADMIN</h1>
                     <form action="/" method="POST" className={ styles.form }>
